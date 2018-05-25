@@ -1,0 +1,20 @@
+{
+    "name": "upscale/cisco-meraki-client",
+    "description": "Client for Cisco Meraki REST API",
+    "version": "1.0.0",
+    "keywords": ["Cisco", "Meraki", "REST", "RESTful", "API", "Client", "Dashboard"],
+    "homepage": "https://github.com/upscalesoftware/cisco-meraki-client",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Upscale Software Team",
+            "email": "info@upscalesoftware.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {"Upscale\\Cisco\\Meraki\\": "src/"}
+    }
+}
