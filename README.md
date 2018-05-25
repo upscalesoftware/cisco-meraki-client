@@ -37,11 +37,7 @@ $networkId = $networks[0]['id'];
 $devices = $meraki->fetchDevices($networkId);
 
 $deviceId = $devices[0]['serial'];
-$clients = $meraki->fetchClients($deviceId);;
-
-var_export($networks);
-var_export($devices);
-var_export($clients);
+$clients = $meraki->fetchClients($deviceId);
 ```
 
 ## Advanced Usage
